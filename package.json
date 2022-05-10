@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "./pages/index.js",
+  "homepage": "./_static",
   "private": true,
   "scripts": {
     "dev": "next dev",
