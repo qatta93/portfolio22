@@ -16,6 +16,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.cluster031.hosting.ovh.net
-        local-dir: ./portfolio/
+        local-dir: ./portfolio
         username: homiait
         password: ${{ secrets.ftp_password }}
