@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# portfolio22
+
+Personal website project that enables contact with developer, shows portfolio and 'about me' section.
