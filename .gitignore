@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# static folder
+_static
+
 # production
 /build
 
