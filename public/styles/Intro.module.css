@@ -1,13 +1,22 @@
 .intro {
   height: 100%;
-  padding: 3rem 2rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
 .intro__hello,
 .intro__name {
-  margin-bottom: 1.2rem;
-  font-weight: 400;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.intro__name {
+  height: 4rem;
+  line-height: 3rem;
+  background-image: url('../images/paint.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 110%;
 }
 
 .intro__dev {
