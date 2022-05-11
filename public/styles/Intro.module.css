@@ -1,0 +1,15 @@
+.intro {
+  height: 100%;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.intro__hello,
+.intro__name {
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+}
+
+.intro__dev {
+  font-weight: 200;
+}

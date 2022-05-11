@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+.header {
+  flex: 1;
+}
+
+.main {
+  flex: 8;
+}
+
+.footer {
+  flex: 1;
+}

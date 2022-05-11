@@ -1,0 +1,21 @@
+:root {
+  --gray: #4D535F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--gray);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  overflow-y: hidden;
+  flex-direction: column;
+  width: 100vw;
+  background-image: url('../images/bcg.png');
+  background-size: cover;
+}
