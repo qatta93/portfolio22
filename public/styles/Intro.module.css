@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.intro__header {
+  height: 40%;
+}
+
 .intro__hello,
 .intro__name {
   margin-bottom: 0.3rem;
@@ -21,4 +25,8 @@
 
 .intro__dev {
   font-weight: 200;
+}
+
+.intro__animation {
+  height: 60%;
 }

@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { Footer } from './Footer';
 import { Navbar } from './Navbar';
+import { MenuMobile } from './MenuMobile';
 import styles from '../../public/styles/Layout.module.css';
 
 export const Layout = ({ children }) => {
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   if (typeof window !== "undefined") {
     const [vh, setVh] = React.useState(0);
@@ -13,10 +15,11 @@ export const Layout = ({ children }) => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
 
+ 
   return (
     <div className={styles.wrapper}>
-      <nav className={styles.navbar}><Navbar /></nav>
-      <main className={styles.main}>{children}</main>
+      <nav className={styles.navbar}><Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} /></nav>
+      {mobileMenu === false ? <main className={styles.main}>{children}</main> : <MenuMobile/>}
       <footer className={styles.footer}><Footer /></footer>
     </div>
   )

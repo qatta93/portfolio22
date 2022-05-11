@@ -3,6 +3,11 @@
   display: flex;
 }
 
+.nav button {
+  background-color: transparent;
+  border: none;
+}
+
 .nav__burger {
   height: 2.8rem;
 }

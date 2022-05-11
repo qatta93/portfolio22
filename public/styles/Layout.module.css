@@ -6,13 +6,13 @@
 }
 
 .header {
-  flex: 1;
+  height: 10%;
 }
 
 .main {
-  flex: 8;
+  height: 80%;
 }
 
 .footer {
-  flex: 1;
+  height: 10%;
 }

@@ -1,0 +1,20 @@
+.menuMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  background-color: white;
+}
+
+.menuMobile a {
+  width: 10rem;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  border: 2px solid var(--blue);
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px var(--light-gray);
+}
