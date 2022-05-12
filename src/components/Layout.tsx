@@ -4,7 +4,7 @@ import { Navbar } from './Navbar';
 import { MenuMobile } from './MenuMobile';
 import styles from '../../public/styles/Layout.module.css';
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   if (typeof window !== "undefined") {

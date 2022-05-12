@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from '../../public/styles/ProjectCard.module.css';
+import { ProjectCardProps } from '../types';
 
-export const ProjectCard = ({ id, name, tech, img, setActiveProject }) => {
+export const ProjectCard = ({ id, name, tech, img, setActiveProject }:ProjectCardProps) => {
 
   const technologies = tech.toString().replace(/,/g, ' | ');
 
-  const activeProject = (projectId) => {
+  const activeProject = (projectId:number) => {
     return setActiveProject(projectId);
   }
 

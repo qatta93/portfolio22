@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '../../public/styles/Navbar.module.css';
+import { NavbarProps } from '../types';
 
-export const Navbar = ({ mobileMenu, setMobileMenu }) => {
+export const Navbar = ({ mobileMenu, setMobileMenu }:NavbarProps) => {
 
   const openMobileMenu = () => {
     return setMobileMenu(!mobileMenu);
