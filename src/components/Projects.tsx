@@ -27,5 +27,5 @@ if(activeProject === null){
     </section>
   )
 } 
-return <ActiveProject project={project} setActiveProject={setActiveProject}/>
+return <ActiveProject key={project[0].id} project={project} setActiveProject={setActiveProject}/>
 }

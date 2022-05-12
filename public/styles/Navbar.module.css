@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.nav-colored {
+  background-color: red;
+}
+
 .nav button {
   background-color: transparent;
   border: none;
