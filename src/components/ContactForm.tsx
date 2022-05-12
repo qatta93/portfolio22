@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from '../../public/styles/ContactForm.module.css';
 
-const FORM_ENDPOINT = "";
+const FORM_ENDPOINT = process.env.HEROTOFU_URL;
 
 export const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -13,10 +13,10 @@ export const ContactForm = () => {
 
   if (submitted) {
     return (
-      <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
-      </>
+      <section className={styles.form__response}>
+        <p>Thank you!</p>
+        <p>I'll be in touch soon.</p>
+      </section>
     );
   }
 
@@ -51,6 +51,7 @@ export const ContactForm = () => {
       <button
         className={styles.form__button}
         type="submit"
+        value="Download CTA"
       >
         send
       </button>

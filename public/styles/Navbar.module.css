@@ -1,5 +1,5 @@
 .nav {
-  padding: 1rem;
+  padding: 0.8rem 1rem;
   display: flex;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .nav__burger {
-  height: 2.8rem;
+  height: 2.6rem;
 }
 
 .nav__container {
@@ -20,6 +20,6 @@
 }
 
 .nav__icon {
-  height: 2.3rem;
+  height: 2.2rem;
   margin-left: 0.8rem
 }

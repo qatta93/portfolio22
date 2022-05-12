@@ -15,7 +15,6 @@ export const Layout = ({ children }) => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
 
- 
   return (
     <div className={styles.wrapper}>
       <nav className={styles.navbar}><Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} /></nav>

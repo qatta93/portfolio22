@@ -10,9 +10,10 @@
 }
 
 .main {
-  height: 80%;
+  height: 82%;
+  overflow-y: scroll;
 }
 
 .footer {
-  height: 10%;
+  height: 8%;
 }

@@ -7,8 +7,6 @@ export const Navbar = ({ mobileMenu, setMobileMenu }) => {
     return setMobileMenu(!mobileMenu);
   }
 
-  console.log(mobileMenu);
-
   return (
     <nav className={styles.nav}>
       <button onClick={openMobileMenu}><img src={`images/${mobileMenu === false ? 'burger.png' : 'close.png'}`} alt="menu" className={styles.nav__burger}/></button>

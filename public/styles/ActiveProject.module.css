@@ -1,0 +1,59 @@
+.activeProject {
+  padding: 1.5rem;
+  height: 100%;
+  text-align: center;
+  background-color: var(--dark-gray);
+}
+
+.activeProject__img {
+  height: 2rem;
+  float: right;
+  cursor: pointer;
+}
+
+.activeProject__name {
+  padding: 4rem 0 0.6rem;
+  color: var(--yellow);
+}
+
+.activeProject__tech {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.activeProject__desc {
+  margin-top: 1.7rem;
+  font-style: italic;
+  font-weight: 100;
+  color: white;
+}
+
+.activeProject__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.activeProject__header {
+  font-weight: 300;
+  color: var(--yellow);
+}
+
+.activeProject__link {
+  width: 10rem;
+  margin: 0.5rem auto;
+  padding: 0.7rem 0;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1rem;
+  border: 1px solid var(--yellow);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.activeProject__link:hover {
+  background-color: var(--yellow);
+  color: var(--gray);
+}
+

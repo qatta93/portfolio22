@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Travel Buddy",
+    "tech": ["React", "Redux", "TypeScript", "Node.JS", "Express.JS", "Passport.JS", "OAuth", "PostreSQL", "Docker", "Heroku"],
+    "description": "\"The app was created as final project in </salt> bootcamp. It was conceived for travelers that wish to find a buddy to travel with. They can either create trips and wait for people to join them, or search through other people's trips and join them in their adventures.\"",
+    "img": "images/travel-buddy.png",
+    "links": ["live", "github"],
+    "url": ["https://travel-buddy-cn.herokuapp.com/", "https://github.com/qatta93/travel_buddy"]
+  },
+  {
+    "id": 2,
+    "name": "Hack-Day",
+    "tech": ["React", "Node.JS", "Express.JS", "API"],
+    "description": "\"Full stack project that was created in 1 day. It generates random holidays destination for an undecided ones. It also shows current weather and pictures of the place.\"",
+    "img": "images/hack-day.png",
+    "links": ["github"],
+    "url": ["https://github.com/qatta93/hack-day"]
+  },
+  {
+    "id": 3,
+    "name": "Quiz App",
+    "tech": ["React", "Material UI", "API"],
+    "description": "\"Quiz that generates questions thanks to Trivia API. UI was created by using Material UI\"",
+    "img": "images/quiz.jpg",
+    "links": ["live", "github"],
+    "url": ["https://qatta93.github.io/quiz/", "https://github.com/qatta93/quiz-app"]
+  },
+  {
+    "id": 4,
+    "name": "Web Prototype",
+    "tech": ["Adobe XD", "PS", "CorelDraw"],
+    "description": "\"The website was designed to promote house projects. There is a configurator that automatically estimates costs of houses and shows the next available date of starting the construction\"",
+    "img": "images/homia.png",
+    "links": ["mobile", "desktop"],
+    "url": ["https://xd.adobe.com/view/a926c21d-5134-4b17-86dd-ed51f76a4213-fc75/screen/9211be44-5f69-46ea-a140-6cb02c9a8a0a/", "https://xd.adobe.com/view/6ad123ba-b7f8-4886-9436-3960e95076c2-3f82/"]
+  }
+]

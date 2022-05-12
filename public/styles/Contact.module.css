@@ -1,6 +1,6 @@
 .contact {
   text-align: center;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .contact p {

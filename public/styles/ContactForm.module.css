@@ -33,3 +33,9 @@
   color: #4D535F;
   padding-left: 0;
 }
+
+.form__response {
+  margin-top: 5rem;
+  padding: 1rem;
+  background-color: white;
+}
