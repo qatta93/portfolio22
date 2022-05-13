@@ -1,0 +1,92 @@
+.about__buttons {
+  margin: 3rem 2rem 1.5rem;
+}
+
+.about__btn {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 6px 6px 12px #898d9757,-12px -12px 16px #fff;
+}
+
+.about__btn > * {
+  opacity: 0.4;
+  font-weight: 400;
+}
+
+.about__btnSelected {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  text-align: left;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: inset 4px 4px 7px #b8b9be;
+}
+
+.about__btnSelected > * {
+  text-decoration: 2px var(--blue) underline;
+}
+
+.about__btn p,
+.about__btnSelected p {
+  font-style: italic;
+}
+
+.aboutComp {
+  padding: 2rem 2rem;
+  border-top: 1px solid rgb(208, 207, 207);
+  background-color: #efeff0c8;
+}
+
+.aboutComp__img {
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 6px 6px 12px #898d9757;
+}
+
+.aboutComp__text {
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+  border-radius: 15px;
+  line-height: 1.6rem;
+  font-weight: 200;
+  text-align: justify;
+  text-indent: 2rem;
+  background-color: white;
+  box-shadow: 6px 6px 12px #898d9757;
+}
+
+.aboutComp__text h1 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+  text-indent: 0;
+}
+
+.aboutComp__tech {
+  margin-top: 1.5rem;
+  border-top: 1px solid rgb(208, 207, 207);
+  text-align: center;
+  text-indent:  0;
+}
+
+.aboutComp__tech h2 {
+  padding: 1rem 0 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  background-color: #efeff0;
+}
+
+.aboutComp__icons > * {
+  margin: 0.5rem;
+  height: 3rem;
+}
