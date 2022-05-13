@@ -9,7 +9,7 @@ export const Navbar = ({ mobileMenu, setMobileMenu }:NavbarProps) => {
   }
 
   return (
-    <nav className={styles.nav} id={styles.mynav}>
+    <nav className={styles.nav}>
       <button onClick={openMobileMenu}><img src={`images/${mobileMenu === false ? 'burger.png' : 'close.png'}`} alt="menu" className={styles.nav__burger}/></button>
       <section className={styles.nav__container}>
         <img src='images/github.png' alt="github" className={styles.nav__icon}/>

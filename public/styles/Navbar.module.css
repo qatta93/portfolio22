@@ -1,5 +1,5 @@
 .nav {
-  padding: 0.8rem 1rem;
+  padding: 0.4rem 1rem;
   display: flex;
   background-color: #fff;
   border-bottom: 0.5px solid #d3d4d6;
@@ -15,7 +15,8 @@
 }
 
 .nav__burger {
-  height: 2.6rem;
+  margin-top: 0.2rem;
+  height: 2.3rem;
 }
 
 .nav__container {
@@ -26,6 +27,6 @@
 }
 
 .nav__icon {
-  height: 2.2rem;
+  height: 2rem;
   margin-left: 0.8rem
 }
