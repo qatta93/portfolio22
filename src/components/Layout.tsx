@@ -16,6 +16,8 @@ export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
     }, [width]);
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
+
+
   
   const isTablet = 767 < width;
 
