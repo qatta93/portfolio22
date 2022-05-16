@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 100%;
 }
 
 .intro__hello,
@@ -19,6 +19,7 @@
 .intro__name {
   font-size: 1.3rem;
   height: 4rem;
+  width: 50vh;
   line-height: 3rem;
   background-image: url('../images/paint.png');
   background-repeat: no-repeat;
@@ -44,5 +45,39 @@
 }
 
 .intro__footer {
-  height: 10%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__hello {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro__name {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  height: 8rem;
+  line-height: 7rem;
+  background-image: url('../images/paint.png');
+}
+
+.intro__dev {
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.intro__btn {
+  padding: 1.5rem;
+  line-height: 3rem;
+  font-size: 1.7rem;
+}
+
+.intro__footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
 }

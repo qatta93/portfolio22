@@ -1,3 +1,5 @@
+import { DetailedHTMLProps, HTMLAttributes } from "react";
+
 export interface ProjectProps {
   id: number,
   name: string,
@@ -15,7 +17,8 @@ export interface ActiveProjectProps {
 
 export interface NavbarProps {
   mobileMenu: boolean,
-  setMobileMenu: React.Dispatch<React.SetStateAction<boolean>>
+  setMobileMenu: React.Dispatch<React.SetStateAction<boolean>>,
+  isTablet: boolean
 }
 
 export interface ProjectCardProps {

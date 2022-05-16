@@ -15,11 +15,15 @@
 }
 
 body {
-  display: flex;
+  /* display: flex; */
   height: 100vh;
   overflow-y: hidden;
   flex-direction: column;
   width: 100vw;
   background-image: url('../images/bcg.png');
   background-size: cover;
+}
+
+a {
+  text-decoration: none;
 }

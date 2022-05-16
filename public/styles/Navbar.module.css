@@ -5,10 +5,6 @@
   border-bottom: 0.5px solid #d3d4d6;
 }
 
-.nav-colored {
-  background-color: red;
-}
-
 .nav button {
   background-color: transparent;
   border: none;
@@ -30,3 +26,36 @@
   height: 2rem;
   margin-left: 0.8rem
 }
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__list li {
+  padding: 0.5rem;
+  margin-right: 1.5rem;
+  white-space: nowrap;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.nav__active {
+  background-color: var(--yellow);
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 1rem 1.5rem;
+  }
+  
+  .nav__burger {
+    margin-top: 0.2rem;
+    height: 2.7rem;
+  }
+  
+  .nav__icon {
+    height: 2.2rem;
+    margin-left: 1.2rem
+  }
+ }
