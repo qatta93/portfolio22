@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.538);
 }
 
 .menuMobile a {
@@ -16,5 +16,6 @@
   font-weight: 500;
   border: 2px solid var(--blue);
   border-radius: 0.5rem;
+  background-color: white;
   box-shadow: 2px 2px 4px var(--light-gray);
 }
