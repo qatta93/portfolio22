@@ -1,4 +1,9 @@
 .contact {
+  height: 100%;
+}
+
+.contact__container {
+  height: 90%;
   text-align: center;
   overflow-y: scroll;
 }
@@ -11,4 +16,8 @@
 .contact__wrapper p:last-child {
   margin-top: 1rem;
   font-weight: 700;
+}
+
+.contact__footer {
+  height: 10%;
 }

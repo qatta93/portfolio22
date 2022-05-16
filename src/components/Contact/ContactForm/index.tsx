@@ -11,7 +11,7 @@ export const ContactForm = () => {
     }, 100);
   };
 
-  if (submitted) {
+  if (!submitted) {
     return (
       <section className={styles.form__response}>
         <p>Thank you!</p>

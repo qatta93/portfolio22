@@ -3,8 +3,8 @@ import { Contact } from '../src/components/Contact';
 
 export default function contact() {
   return (
-    <div>
+    <>
       <Contact />
-    </div>
+    </>
   )
 }
