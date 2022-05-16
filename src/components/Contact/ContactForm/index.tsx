@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import styles from '../../../../public/styles/ContactForm.module.css';
 
-const FORM_ENDPOINT = process.env.HEROTOFU_URL;
+const FORM_ENDPOINT = process.env.NEXT_PUBLIC_HEROTOFU_URL;
+
+console.log(FORM_ENDPOINT)
 
 export const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);

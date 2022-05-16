@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { SectionHeader } from '../SectionHeader';
 import { ProjectCard } from './ProjectCard';
 import { ActiveProject } from './ActiveProject';
+import { Footer } from '../Footer';
 import styles from '../../../public/styles/Projects.module.css';
 import projectsData from '../../../public/api/projects.json';
 
@@ -24,6 +25,7 @@ if(activeProject === null){
           img={project.img} 
           setActiveProject={setActiveProject}/>)}
       </div>
+      <Footer />
     </section>
   )
 } 

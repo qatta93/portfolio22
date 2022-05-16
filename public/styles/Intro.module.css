@@ -1,10 +1,11 @@
 .intro {
   height: 100%;
-  padding: 3rem 1rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
 .intro__header {
+  padding: 0 1rem;
   height: 40%;
 }
 
@@ -28,5 +29,9 @@
 }
 
 .intro__animation {
-  height: 60%;
+  height: 50%;
+}
+
+.intro__footer {
+  height: 10%;
 }

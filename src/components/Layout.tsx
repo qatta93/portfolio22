@@ -19,7 +19,6 @@ export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
     <div className={styles.wrapper}>
       <nav className={styles.navbar}><Navbar mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} /></nav>
       {mobileMenu === false ? <main className={styles.main}>{children}</main> : <MenuMobile/>}
-      <footer className={styles.footer}><Footer /></footer>
     </div>
   )
 }
