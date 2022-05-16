@@ -6,10 +6,10 @@
 }
 
 .header {
-  height: 10%;
+  height: 5%;
 }
 
 .main {
-  height: 90%;
+  height: 95%;
   overflow-y: scroll;
 }

@@ -1,12 +1,13 @@
 .intro {
   height: 100%;
-  padding-top: 3rem;
   text-align: center;
 }
 
-.intro__header {
-  padding: 0 1rem;
-  height: 40%;
+.intro__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
 }
 
 .intro__hello,
@@ -16,20 +17,30 @@
 }
 
 .intro__name {
+  font-size: 1.3rem;
   height: 4rem;
   line-height: 3rem;
   background-image: url('../images/paint.png');
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 110%;
+  background-size: 120%;
 }
 
 .intro__dev {
   font-weight: 200;
+  margin-bottom: 3rem;
 }
 
-.intro__animation {
-  height: 50%;
+.intro__btn {
+  padding: 1rem;
+  box-shadow: 6px 6px 12px #4d535f57,-15px -15px 16px #fff!important;
+  background-color: #F5F5F5;
+  text-decoration: none;
+  border-radius: 15px;
+  line-height: 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4D535F;
 }
 
 .intro__footer {
