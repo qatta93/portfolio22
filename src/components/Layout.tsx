@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Navbar } from './Navbar';
 import { MenuMobile } from './MenuMobile';
 import styles from '../../public/styles/Layout.module.css';
-import { type } from 'os';
 
 export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
   const [mobileMenu, setMobileMenu] = useState(false);
