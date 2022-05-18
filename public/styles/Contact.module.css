@@ -4,8 +4,9 @@
 
 .contact__container {
   height: 90%;
+  max-width: 32rem;
+  margin: 0 auto;
   text-align: center;
-  overflow-y: scroll;
 }
 
 .contact p {
@@ -18,6 +19,3 @@
   font-weight: 700;
 }
 
-.contact__footer {
-  height: 10%;
-}

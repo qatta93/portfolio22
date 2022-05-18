@@ -8,7 +8,8 @@
 }
 
 .menuMobile a {
-  width: 10rem;
+  width: 60%;
+  max-width: 15rem;
   padding: 0.7rem;
   margin: 0.7rem;
   text-decoration: none;
