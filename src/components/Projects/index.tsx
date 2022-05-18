@@ -26,9 +26,9 @@ if(activeProject === null){
           img={project.img} 
           setActiveProject={setActiveProject}/>)}
       </div>
-      <div className={styles.projects__footer}><Footer /></div>
+    <div className={styles.projects__footer}><Footer /></div>
     </section>
-      </>
+    </>
   )
 } 
 return <ActiveProject key={project[0].id} project={project[0]} setActiveProject={setActiveProject}/>

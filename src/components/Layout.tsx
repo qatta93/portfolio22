@@ -11,23 +11,19 @@ export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
   const handleResize = () => setWidth(window.innerWidth);
   const [width, setWidth] = useState<number>(0);
   const isTablet = (767 < width && width !==0);
-  const isPhone = 520 > width;
   
   if (typeof window !== "undefined" && width === 0){
     const defaultWidth = window.innerHeight;
     setWidth(defaultWidth);
   }
-  
+
   if (typeof window !== "undefined") {
     useEffect(() => {
       setVh(window.innerHeight * 0.01);
       window.addEventListener('resize', handleResize);
       () => window.removeEventListener('resize', handleResize);
-      if(isPhone && width !== 0){
-        console.log('dziala')
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
-      }
     }, [handleResize]);
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
   }
 
 

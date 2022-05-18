@@ -12,7 +12,14 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
   color: var(--gray);
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
 }
+
+*::-webkit-scrollbar {
+  display: none; 
+}
+
 
 body {
   height: 100vh;

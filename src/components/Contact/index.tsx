@@ -6,6 +6,7 @@ import styles from '../../../public/styles/Contact.module.css';
 
 export const Contact = () => {
   return (
+    <>
     <div className={styles.contact}>
       <SectionHeader title={'Contact'} />
       <section className={styles.contact__container}>
@@ -16,7 +17,8 @@ export const Contact = () => {
         </div>
         <ContactForm />
       </section>
-      <div className={styles.contact__footer}><Footer /></div>
     </div>
+    <div className={styles.contact__footer}><Footer /></div>
+    </>
   )
 }

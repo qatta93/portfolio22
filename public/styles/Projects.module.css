@@ -1,43 +1,47 @@
 .projects {
-  position: relative;
+  height: 93%;
 }
 
 .projects__wrapper {
-  height: 100%;
   margin: 0 auto;
   max-width: 35rem;
 }
 
-/* .projects__footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-} */
-
 @media screen and (min-width: 768px) {
   .projects__wrapper {
+    height: 83%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     max-width: 45rem;
+    margin-top: 5rem;
   }
   
   .projects__wrapper > * {
     flex: 40%;
-    margin: 1rem;
+    margin: 0 1rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .projects__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 60rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
-  
   .projects__wrapper > * {
-    flex: 40%;
-    margin: 1.5rem;
+    flex: 35%;
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .projects__wrapper {
+    margin-bottom: 3rem;
+    flex-wrap: nowrap;
+    max-width: 95%;
+    overflow: hidden;
+  }
+  .projects__wrapper > * {
+    flex: 20%;
+    margin: 1rem;
+    height: 20rem;
   }
 }
