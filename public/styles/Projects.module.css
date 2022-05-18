@@ -1,10 +1,18 @@
-
+.projects {
+  position: relative;
+}
 
 .projects__wrapper {
   height: 100%;
   margin: 0 auto;
   max-width: 35rem;
 }
+
+/* .projects__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
 
 @media screen and (min-width: 768px) {
   .projects__wrapper {

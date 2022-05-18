@@ -126,6 +126,9 @@
     flex-direction: column;
    align-items: center;
   }
+  .aboutComp__wrapper {
+    max-width: 100%;
+  }
   .aboutComp__img,
   .aboutComp__text {
     max-width: 30rem;

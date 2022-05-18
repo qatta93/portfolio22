@@ -3,7 +3,7 @@ import styles from '../../public/styles/Navbar.module.css';
 import { NavbarProps } from '../types';
 import { useRouter } from 'next/router';
 
-export const Navbar = ({ mobileMenu, setMobileMenu, isTablet }:NavbarProps) => {
+export const Navbar = ({ mobileMenu, setMobileMenu, isTablet}:NavbarProps) => {
 
   const [active, setActive] = useState<string>('home');
 
@@ -13,6 +13,7 @@ export const Navbar = ({ mobileMenu, setMobileMenu, isTablet }:NavbarProps) => {
   useEffect (() => {
     setActive(page);
   }, [active])
+
   
   const openMobileMenu = () => {
     return setMobileMenu(!mobileMenu);
