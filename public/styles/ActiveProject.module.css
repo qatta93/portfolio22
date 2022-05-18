@@ -1,9 +1,13 @@
 .activeProject {
-  padding: 1.5rem;
   height: 100%;
   text-align: center;
-  overflow-y: scroll;
+  padding: 1.5rem;
   background-color: var(--dark-gray);
+}
+
+.activeProject__wrapper {
+  margin: 0 auto;
+  max-width: 30rem;
 }
 
 .activeProject__img {
@@ -58,3 +62,8 @@
   color: var(--gray);
 }
 
+@media screen and (min-width: 1024px) {
+  .activeProject__wrapper {
+    max-width: 35rem;
+  }
+}
