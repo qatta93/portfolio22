@@ -131,35 +131,58 @@
   .about__buttons {
     display: flex;
     justify-content: space-around;
-    
+    max-width: 100%;
+    margin: 5rem 1rem 0;
   }
   
   .about__btn,
   .about__btnSelected {
-    width: 31%;
+    width: 30%;
+    max-width: 30rem;
     font-size: 1.1rem;
   }
 
   .aboutComp {
-    margin-top: 6rem;
-    padding: 3rem 2.5rem;
+    margin-top: 4rem;
+  }
+
+  .aboutComp__wrapper {
     display: flex;
     flex-direction: row;
+    padding: 2rem;
   }
   
   .aboutComp__img {
     max-height: 30rem;
-    margin-right: 2rem;
+    margin: 0;
+  }
+
+  .aboutComp__imgTech {
+    display: none;
   }
   
   .aboutComp__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 30rem;
+    min-width: 25rem;
+    max-width: 40rem;
     margin: 0;
+    margin-left: 1rem;
     padding: 3rem 2rem;
     line-height: 1.8rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: justify;
     text-indent: 2.5rem;
+  }
+
+  .aboutComp__textTech {
+    margin: 0 auto;
+    padding: 3rem;
+    height: auto;
+    width: 100%;
+    max-width: 80rem;
   }
   
   .aboutComp__text h1 {
