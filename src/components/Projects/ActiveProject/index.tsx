@@ -16,7 +16,7 @@ export const ActiveProject = ({ project, setActiveProject }:ActiveProjectProps) 
         <p className={styles.activeProject__desc}>{project.description}</p>
         <div className={styles.activeProject__links}>
           <h3 className={styles.activeProject__header}>LINKS:</h3>
-          {project.links.map((link, i) => <a className={styles.activeProject__link} href={project.url[i]}>{link}</a>)}
+          {project.links.map((link, i) => <a key={link} className={styles.activeProject__link} href={project.url[i]}>{link}</a>)}
         </div>
       </div>
     </section>
