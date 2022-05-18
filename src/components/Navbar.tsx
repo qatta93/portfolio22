@@ -18,7 +18,6 @@ export const Navbar = ({ mobileMenu, setMobileMenu, isTablet }:NavbarProps) => {
     return setMobileMenu(!mobileMenu);
   }
 
-  console.log(isTablet)
   if(isTablet){
     return (
       <nav className={styles.nav}>

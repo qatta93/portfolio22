@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Footer } from './Footer';
 import { Navbar } from './Navbar';
 import { MenuMobile } from './MenuMobile';
 import styles from '../../public/styles/Layout.module.css';
@@ -17,8 +16,6 @@ export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   }
 
-
-  
   const isTablet = 767 < width;
 
   return (
