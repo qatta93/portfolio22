@@ -1,9 +1,4 @@
-.contact {
-  height: 100%;
-}
-
 .contact__container {
-  height: 90%;
   max-width: 32rem;
   margin: 0 auto;
   text-align: center;
@@ -19,3 +14,8 @@
   font-weight: 700;
 }
 
+.contact__footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
