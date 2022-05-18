@@ -35,7 +35,7 @@ export const About = () => {
         {sectionId === 2 ? <Hobbies /> : null}
         {sectionId === 3 ? <Tech /> : null}
       </section>
-      <div className={styles.intro__footer}><Footer /></div>
+      <div className={styles.about__footer}><Footer /></div>
     </>
   )
 }

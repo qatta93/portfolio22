@@ -7,16 +7,21 @@ export const Layout = ({ children }:React.PropsWithChildren<{}>) => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [width, setWidth] = React.useState<number>(0);
 
+  const isTablet = 767 < width;
+  const isPhone = 520 > width;
+
   if (typeof window !== "undefined") {
     const [vh, setVh] = React.useState(0);
     React.useEffect(() => {
       setVh(window.innerHeight * 0.01);
       setWidth(window.innerWidth);
-    }, [width]);
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }, [window.innerWidth]);
+      if(isPhone && width !== 0){
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
   }
 
-  const isTablet = 767 < width;
+  console.log(width);
 
   return (
     <div className={styles.wrapper}>

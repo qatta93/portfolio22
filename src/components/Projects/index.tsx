@@ -13,7 +13,6 @@ const project = projectsData.filter(project => project.id === activeProject);
 
 if(activeProject === null){
   return (
-    <>
     <section className={styles.projects}>
       <SectionHeader title={'Projects'} />
       <div className={styles.projects__wrapper}>
@@ -28,7 +27,6 @@ if(activeProject === null){
       </div>
       <Footer />
     </section>
-    </>
   )
 } 
 return <ActiveProject key={project[0].id} project={project[0]} setActiveProject={setActiveProject}/>

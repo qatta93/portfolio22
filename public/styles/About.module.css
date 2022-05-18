@@ -1,6 +1,7 @@
 .about {
   margin: 0 auto;
   max-width: 35rem;
+  overflow: hidden;
 }
 
 .about__buttons {
@@ -94,6 +95,12 @@
 .aboutComp__icons > * {
   margin: 0.5rem;
   height: 3rem;
+}
+
+.about__footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
