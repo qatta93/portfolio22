@@ -24,7 +24,7 @@ jobs:
       run: npm run export
 
     - name: Verify build
-      run: ls -la out
+      run: ls -la _static
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
