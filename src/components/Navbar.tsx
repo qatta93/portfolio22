@@ -39,11 +39,11 @@ export const Navbar = ({ mobileMenu, setMobileMenu, isTablet}:NavbarProps) => {
   return (
     <nav className={styles.nav}>
       <button onClick={openMobileMenu}><img src={`images/${mobileMenu === false ? 'burger.png' : 'close.png'}`} alt="menu" className={styles.nav__burger}/></button>
-      <section className={styles.nav__container}>
-        <img src='images/github.png' alt="github" className={styles.nav__icon}/>
-        <img src='images/linkedin.png' alt="linkedin" className={styles.nav__icon}/>
-        <img src='images/instagram.png' alt="instagram" className={styles.nav__icon}/>
-      </section>
+        <section className={styles.nav__container}>
+          <a href="https://github.com/qatta93" target="_blank"><img src='images/github.png' alt="github" className={styles.nav__icon}/></a>
+          <a href="https://www.linkedin.com/in/patrycjapanasiuk/" target="_blank"><img src='images/linkedin.png' alt="linkedin" className={styles.nav__icon}/></a>
+          <a href="https://www.instagram.com/__qatta/" target="_blank"><img src='images/instagram.png' alt="instagram" className={styles.nav__icon}/></a>
+        </section>
     </nav>
   )
 }
