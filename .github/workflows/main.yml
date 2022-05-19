@@ -5,16 +5,31 @@ on:
     branches: [main]
 name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
+  build-and-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '13.x'
+
+    - name: Install Project Dependencies
+      run: npm install
+
+    - name: Build and export
+      run: npm run export
+
+    - name: Verify build
+      run: ls -la out
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
+        source: "./_static"
         server: ftp.cluster031.hosting.ovh.net
         server-dir: ./portfolio/
         username: homiait
