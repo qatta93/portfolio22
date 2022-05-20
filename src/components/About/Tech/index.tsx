@@ -66,6 +66,17 @@ export const Tech = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
+              date="09.2021 - 02.2022"
+              iconStyle={{ background: 'white' }}
+            >
+              <h3 className="vertical-timeline-element-title">Leadership training workshop</h3>
+              <h4 className="vertical-timeline-element-subtitle">online</h4>
+              <p>
+              EU program - practical course that increases soft skills and improves teamwork (100h).
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
               date="06.2021-01.2022"
               iconStyle={{ background: '#efeff0' }}
             >
@@ -99,6 +110,31 @@ export const Tech = () => {
               <h4 className="vertical-timeline-element-subtitle">Germany, The UK, Poland</h4>
               <p>
                 Working as an engineer in international projects.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="10.2013-02.2019"
+              iconStyle={{ background: 'white' }}
+            >
+              <h3 className="vertical-timeline-element-title">Bachelor of Civil Engineering</h3>
+              <h3 className="vertical-timeline-element-title">Lublin University of Technology</h3>
+              <h4 className="vertical-timeline-element-subtitle">Lublin, Poland</h4>
+              <p>
+                Activities and societies: During my studies I was a year-representative and I got a scholarship.
+                Diploma thesis topic: "The structural project of a self-sufficient timber frame house on "Rajska" island in BIM technology". 
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="10.2012-07.2016"
+              iconStyle={{ background: 'white' }}
+            >
+              <h3 className="vertical-timeline-element-title">Bachelor of Landscape Architecture</h3>
+              <h3 className="vertical-timeline-element-title">University of Life Sciences</h3>
+              <h4 className="vertical-timeline-element-subtitle">Lublin, Poland</h4>
+              <p>
+              Specialisation: Parks and gardens.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
