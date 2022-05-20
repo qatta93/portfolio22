@@ -101,6 +101,16 @@
   height: 3rem;
 }
 
+.aboutComp__timeline {
+  margin-bottom: 2rem;
+}
+
+.aboutComp__timeline__header {
+  margin: 4rem 0 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .about__footer {
   width: 100%;
   position: relative;
@@ -124,15 +134,19 @@
   .aboutComp {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
   .aboutComp__wrapper {
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .aboutComp__img,
   .aboutComp__text {
-    max-width: 30rem;
     margin: 1rem auto;
+  }
+  .aboutComp__timeline {
+    max-width: 45rem;
   }
 }
 
@@ -163,7 +177,13 @@
   .aboutComp__wrapper {
     display: flex;
     flex-direction: row;
+    max-width: 100%;
     padding: 2rem;
+  }
+
+  .aboutComp__wrapperTech {
+    flex-direction: column;
+    max-width: 60rem;
   }
   
   .aboutComp__img {
@@ -200,5 +220,9 @@
   
   .aboutComp__icons > * {
     margin: 1rem;
+  }
+
+  .aboutComp__timeline {
+    max-width: 60rem;
   }
 }

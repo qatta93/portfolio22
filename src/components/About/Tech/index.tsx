@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from '../../../../public/styles/About.module.css';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 export const Tech = () => {
   return (
     <section className={styles.aboutComp}>
-      <div className={styles.aboutComp__wrapper}>
+      <div className={`${styles.aboutComp__wrapper} ${styles.aboutComp__wrapperTech}`}>
         <img className={`${styles.aboutComp__img} ${styles.aboutComp__imgTech}`} src="images/tech.jpg" alt="tech" />
         <article className={`${styles.aboutComp__text} ${styles.aboutComp__textTech}`}>
           <h1 >Tech Stack & Experience</h1>
@@ -46,6 +48,60 @@ export const Tech = () => {
               <img src="images/visual.png" alt="visual" />
             </div>
           </div>
+        </article>
+        <article className={styles.aboutComp__timeline}>
+          <h1 className={styles.aboutComp__timeline__header}>TIMELINE:</h1>
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="01.2022 - present"
+              iconStyle={{ background: 'var(--yellow)' }}
+            >
+              <h3 className="vertical-timeline-element-title">Full-Stack JavaScript Developer</h3>
+              <h4 className="vertical-timeline-element-subtitle">{`</salt>`}</h4>
+              <h4 className="vertical-timeline-element-subtitle">Oslo, Norway</h4>
+              <p>
+              Technical skills include JavaScript, React, Typescript, Node.js, Express, HTML5, CSS3, Databases incl. MongoDB and PostgreSQL, UX/UI and general development tools such as Git, REST, Docker, Kubernetes, Redux, GraphQL, AWS, TDD and CI/CD.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="06.2021-01.2022"
+              iconStyle={{ background: '#efeff0' }}
+            >
+              <h3 className="vertical-timeline-element-title">Civil Engineer</h3>
+              <h4 className="vertical-timeline-element-subtitle">self-employed</h4>
+              <h4 className="vertical-timeline-element-subtitle">Warsaw, Poland</h4>
+              <p>
+                Architectural and structural engineering consulting.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="06.2020-08.2021"
+              iconStyle={{ background: '#efeff0' }}
+            >
+              <h3 className="vertical-timeline-element-title">Architect / Brand manager</h3>
+              <h4 className="vertical-timeline-element-subtitle">Akrobud</h4>
+              <h4 className="vertical-timeline-element-subtitle">Warsaw, Poland</h4>
+              <p>
+              I created a brand of a company selling prefabricated houses. I did everything from scratch - the name, logo, projects, business model etc. I was researching a market, looking for new solutions and trying to play the role of my potential clients. 
+              I sold 4 houses after a few months of creating the company. I realized how important is to present information in a simple and intuitive way (UX/UI). I designed and coded a website (HTML, CSS, JS, PHP, ADOBE XD). 
+              I was planning to do 3D configurator in the future to make the website more automated and user friendly.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="01.2015-06.2020"
+              iconStyle={{ background: '#efeff0' }}
+            >
+              <h3 className="vertical-timeline-element-title">Architect / Civil Engineer</h3>
+              <h4 className="vertical-timeline-element-subtitle">Germany, The UK, Poland</h4>
+              <p>
+                Working as an engineer in international projects.
+              </p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
         </article>
       </div>
     </section>
