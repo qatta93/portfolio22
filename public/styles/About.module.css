@@ -150,7 +150,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .about {
     margin: 0 auto;
     max-width: 100vw;
