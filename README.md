@@ -1,6 +1,8 @@
 # portfolio22
 You can see the live website [_HERE._](https://patrycja.info/)
 
+![](./profile-3d-contrib/profile-green-animate.svg)
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
