@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 768px) {
   .projects__wrapper {
-    height: 83%;
+    height: 87%;
     display: flex;
     flex-wrap: wrap;
     max-width: 45rem;
@@ -29,6 +29,11 @@
   .projects__wrapper > * {
     flex: 35%;
     margin: 1rem;
+  }
+  .projects__footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
   }
 }
 

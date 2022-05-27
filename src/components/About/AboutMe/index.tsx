@@ -9,10 +9,14 @@ export const AboutMe = () => {
         <img className={styles.aboutComp__img} src="images/myself.jpg" alt="me" />
         <article className={styles.aboutComp__text}>
           <h1>Who am I?</h1>
-          <p>Hello, I am Patrycja from Poland. I am UI/UX and frontend enthusiast. By education I am a civil engineer and landscape architect</p>
-          <p> In 2019 I has started learning programming. It was when I began noticing how <b>automation speeds up my work and improves efficiency.</b></p>
-          <p>In 2020, I created a brand of house designs for sale from scratch. I was trying to play the role of my potential clients and I realized how important it is to <b>present information in a simple and intuitive way.</b></p>
-          <p>This is how my career path has began turning into frontend development.</p>
+          <p>Hello, I am Patrycja from Poland.
+          Passionate about frontend development and UX/UI. I have started learning coding in 2019. It was when I had began noticing how <b>automation speeds up my work and improves efficiency. </b> 
+          I created a brand of house designs for sale from scratch. I was trying to play the role of my potential clients and I realized how important it is to <b>present information in a simple and intuitive way. </b>
+          This is how my career path has began turning into frontend development.</p>
+          <p>As I am an <b>architect</b> - 
+          I know 3D modeling, design tools and have aesthetic sense. <b>Civil engineering</b> taught me how to solve problems and think analytically. I love psychology and self-development.</p>
+          <p>I am a traveler who has seen many faces of humanity and can be empathetic, ​​which helps in UX designing.</p>
+          Besides the above, I bring a cake to the office and, as I used to be a professional player, I always persuade my colleagues to play volleyball together :)   
         </article>
         </div>
         <article className={styles.aboutComp__timeline}>
@@ -20,7 +24,7 @@ export const AboutMe = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="01.2022 - present"
+              date="2021 - present"
               iconStyle={{ background: 'var(--yellow)' }}
             >
               <h3 className="vertical-timeline-element-title">Full-Stack JavaScript Developer</h3>
@@ -32,7 +36,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="09.2021 - 02.2022"
+              date="2021-2022"
               iconStyle={{ background: 'white' }}
             >
               <h3 className="vertical-timeline-element-title">Leadership training workshop</h3>
@@ -43,7 +47,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="06.2021-01.2022"
+              date="2021"
               iconStyle={{ background: '#efeff0' }}
             >
               <h3 className="vertical-timeline-element-title">Civil Engineer</h3>
@@ -55,7 +59,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="06.2020-08.2021"
+              date="2020-2021"
               iconStyle={{ background: '#efeff0' }}
             >
               <h3 className="vertical-timeline-element-title">Architect / Brand manager</h3>
@@ -69,7 +73,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="01.2015-06.2020"
+              date="2015-2020"
               iconStyle={{ background: '#efeff0' }}
             >
               <h3 className="vertical-timeline-element-title">Architect / Civil Engineer</h3>
@@ -80,7 +84,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="10.2013-02.2019"
+              date="2013-2019"
               iconStyle={{ background: 'white' }}
             >
               <h3 className="vertical-timeline-element-title">Bachelor of Civil Engineering</h3>
@@ -93,7 +97,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="10.2012-07.2016"
+              date="2012-2016"
               iconStyle={{ background: 'white' }}
             >
               <h3 className="vertical-timeline-element-title">Bachelor of Landscape Architecture</h3>

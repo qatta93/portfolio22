@@ -8,7 +8,7 @@ export const Tech = () => {
       <div className={`${styles.aboutComp__wrapper} ${styles.aboutComp__wrapperTech}`}>
         <img className={`${styles.aboutComp__img} ${styles.aboutComp__imgTech}`} src="images/tech.jpg" alt="tech" />
         <article className={`${styles.aboutComp__text} ${styles.aboutComp__textTech}`}>
-          <h1 >Tech Stack & Experience</h1>
+          <h1 >Tech Stack</h1>
           <p>My programming adventure has began in 2019. I have around a year of commercial experience.</p>
           <p>In the future, I would like to create an application that generates automatic house cost estimates based on databases from contractors. Potential investors would design houses in 3D, almost like in The Sims! I was thinking of using Rhinoceros 3D, Grasshopper, C#, Shapediver and JavaScript for this purpose </p>
           <div className={styles.aboutComp__tech}>
