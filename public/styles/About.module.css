@@ -111,6 +111,17 @@
   font-size: 2rem;
 }
 
+.aboutComp__github {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgb(208, 207, 207);
+  width: 100%;
+}
+
+.aboutComp__github img {
+  width: 100%;
+}
+
 .about__footer {
   width: 100%;
   position: relative;

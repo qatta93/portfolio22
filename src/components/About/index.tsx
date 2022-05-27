@@ -27,7 +27,7 @@ export const About = () => {
             <p>The things that make me feel alive.</p>
           </button>
           <button className={sectionId === 3 ? styles.about__btnSelected : styles.about__btn} onClick={() => showSection(3)}>
-            <h1>Tech Stack & Experience</h1>
+            <h1>Tech Stack</h1>
             <p>A few words about my skills.</p>
           </button>
         </div>
