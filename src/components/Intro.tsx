@@ -12,6 +12,7 @@ export const Intro = () => {
             <h1 className={styles.intro__name}>I'm Patrycja Panasiuk</h1>
             <h2 className={styles.intro__dev}>frontend and UX/UI enthusiast</h2>
             <a href='about-me' className={styles.intro__btn}>Get to know me!</a>
+            <img className={styles.intro__img} src="./profile-3d-contrib/profile-gitblock.svg" alt="" />
           </div>
         </div>
         <div className={styles.intro__footer}><Footer /></div>
