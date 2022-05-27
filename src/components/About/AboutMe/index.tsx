@@ -14,6 +14,7 @@ export const AboutMe = () => {
           <p>In 2020, I created a brand of house designs for sale from scratch. I was trying to play the role of my potential clients and I realized how important it is to <b>present information in a simple and intuitive way.</b></p>
           <p>This is how my career path has began turning into frontend development.</p>
         </article>
+        </div>
         <article className={styles.aboutComp__timeline}>
           <h1 className={styles.aboutComp__timeline__header}>TIMELINE:</h1>
           <VerticalTimeline>
@@ -104,7 +105,6 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
           </VerticalTimeline>
         </article>
-      </div>
     </section>
   )
 }
