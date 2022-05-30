@@ -14,8 +14,8 @@
     "tech": ["React", "Node.JS", "Express.JS", "API"],
     "description": "\"Full stack project that was created in 1 day. It generates random holidays destination for an undecided ones. It also shows current weather and pictures of the place.\"",
     "img": "images/hack-day.png",
-    "links": ["live", "github"],
-    "url": ["#", "https://github.com/qatta93/hack-day"]
+    "links": ["github"],
+    "url": ["https://github.com/qatta93/hack-day"]
   },
   {
     "id": 3,
