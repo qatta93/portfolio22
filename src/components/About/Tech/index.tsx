@@ -38,6 +38,7 @@ export const Tech = () => {
             <div className={styles.aboutComp__icons}>
               <img src="images/figma.png" alt="figma" />
               <img src="images/Heroku.png" alt="heroku" />
+              <img src="images/vercel.png" alt="vercel" />
               <img src="images/docker.png" alt="docker" />
               <img src="images/AE.png" alt="AE" />
               <img src="images/jest.png" alt="jest" />
