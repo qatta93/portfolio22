@@ -20,6 +20,9 @@ jobs:
     - name: Install Project Dependencies
       run: npm install
 
+      env:
+        NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
+
     - name: Build and export
       run: npm run export
 
@@ -34,5 +37,4 @@ jobs:
         server-dir: ./portfolio/
         username: homiait
         password: ${{ secrets.ftp_password }}
-      env:
-          NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
+
