@@ -9,10 +9,11 @@ jobs:
     name: Get secret from herotofu
     runs-on: ubuntu-latest 
     steps:
-      - name: Get secret from herotofu
-        env:
-          NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
-        run: echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"  
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"
+          cat .env
   build-and-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
