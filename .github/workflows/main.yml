@@ -20,6 +20,7 @@ jobs:
     - name: Install Project Dependencies
       run: npm install
 
+    - name: Get secret from herotofu
       env:
         NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
 
