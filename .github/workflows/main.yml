@@ -5,6 +5,13 @@ on:
     branches: [main]
 name: 🚀 Deploy website on push
 jobs:
+  local env:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Get secret from herotofu
+        env:
+          NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
+        run: echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"  
   build-and-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
@@ -20,9 +27,6 @@ jobs:
     - name: Install Project Dependencies
       run: npm install
 
-    - name: Get secret from herotofu
-      env:
-        NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
 
     - name: Build and export
       run: npm run export
