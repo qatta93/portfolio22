@@ -5,7 +5,8 @@ on:
     branches: [main]
 name: 🚀 Deploy website on push
 jobs:
-  local env:
+  job1:
+    name: Get secret from herotofu
     runs-on: ubuntu-latest 
     steps:
       - name: Get secret from herotofu
