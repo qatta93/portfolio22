@@ -31,7 +31,7 @@ jobs:
 
     - name: get secret for herotofu
         env:
-          NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
+          NEXT_PUBLIC_HEROTOFU_URL: '${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}'
 
     - name: Build and export
       run: npm run export
