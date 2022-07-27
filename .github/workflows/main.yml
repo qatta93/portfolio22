@@ -32,6 +32,10 @@ jobs:
     - name: get secret for herotofu
       env:
         NEXT_PUBLIC_HEROTOFU_URL: '${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}'
+      run: |
+        touch .env
+        echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"
+        cat .env
 
     - name: Build and export
       run: npm run export
