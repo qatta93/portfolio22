@@ -30,8 +30,8 @@ jobs:
       run: npm install
 
     - name: get secret for herotofu
-        env:
-          NEXT_PUBLIC_HEROTOFU_URL: '${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}'
+      env:
+        NEXT_PUBLIC_HEROTOFU_URL: '${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}'
 
     - name: Build and export
       run: npm run export
