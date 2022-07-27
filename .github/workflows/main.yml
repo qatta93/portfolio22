@@ -26,6 +26,12 @@ jobs:
       with:
         node-version: '13.x'
 
+    - name: 'Create env file'
+      run: |
+        touch .env
+        echo NEXT_PUBLIC_HEROTOFU_URL=${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }} >> .env
+        cat .env
+
     - name: Install Project Dependencies
       run: npm install
 
@@ -43,8 +49,5 @@ jobs:
         server-dir: ./portfolio/
         username: homiait
         password: ${{ secrets.ftp_password }}
-        exclude: |
-          **/.gitignore**
-          **/.git*/**
-          **/node_modules/**
+
 
