@@ -29,14 +29,6 @@ jobs:
     - name: Install Project Dependencies
       run: npm install
 
-    - name: get secret for herotofu
-      env:
-        NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
-      run: |
-        touch .env
-        echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"
-        cat .env
-
     - name: Build and export
       run: npm run export
 
@@ -51,5 +43,8 @@ jobs:
         server-dir: ./portfolio/
         username: homiait
         password: ${{ secrets.ftp_password }}
-        NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
+        exclude: |
+          **/.gitignore**
+          **/.git*/**
+          **/node_modules/**
 
