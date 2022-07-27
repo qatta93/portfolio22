@@ -5,15 +5,15 @@ on:
     branches: [main]
 name: 🚀 Deploy website on push
 jobs:
-  job1:
-    name: Get secret from herotofu
-    runs-on: ubuntu-latest 
-    steps:
-      - name: 'Create env file'
-        run: |
-          touch .env
-          echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"
-          cat .env
+  # job1:
+  #   name: Get secret from herotofu
+  #   runs-on: ubuntu-latest 
+  #   steps:
+  #     - name: 'Create env file'
+  #       run: |
+  #         touch .env
+  #         echo "The API key is:${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}"
+  #         cat .env
   build-and-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
@@ -29,6 +29,9 @@ jobs:
     - name: Install Project Dependencies
       run: npm install
 
+    - name: get secret for herotofu
+        env:
+          NEXT_PUBLIC_HEROTOFU_URL: ${{ secrets.NEXT_PUBLIC_HEROTOFU_URL }}
 
     - name: Build and export
       run: npm run export
