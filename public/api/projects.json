@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "3D SHOP",
+    "tech": ["Next.js", "Three.js", "Prisma", "TypeScript", "Green Sock", "Tailwind", "Vercel", "CI/CD"],
+    "description": "\"This full stack app was created in order to make online shopping more user friendly. 3D models are more appealing for potential customers.\"",
+    "img": "images/shop.png",
+    "links": ["live", "github"],
+    "url": ["https://3d-shop.vercel.app/", "https://github.com/qatta93/3d-shop"]
+  },
+  {
+    "id": 2,
     "name": "Travel Buddy",
     "tech": ["React", "Redux", "TypeScript", "Node.JS", "Express.JS", "Passport.JS", "OAuth", "PostreSQL", "Docker", "Heroku"],
     "description": "\"The app was created as final project in </salt> bootcamp. It was conceived for travelers that wish to find a buddy to travel with. They can either create trips and wait for people to join them, or search through other people's trips and join them in their adventures.\"",
@@ -9,7 +18,7 @@
     "url": ["https://travel-buddy-cn.herokuapp.com/", "https://github.com/qatta93/travel_buddy"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Hack-Day",
     "tech": ["React", "Node.JS", "Express.JS", "API"],
     "description": "\"Full stack project that was created in 1 day. It generates random holidays destination for an undecided ones. It also shows current weather and pictures of the place.\"",
@@ -18,7 +27,7 @@
     "url": ["https://hackday-ebon.vercel.app/", "https://github.com/qatta93/hack-day"]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Quiz App",
     "tech": ["React", "Material UI", "API"],
     "description": "\"Quiz that generates questions thanks to Trivia API. UI was created by using Material UI\"",
@@ -27,7 +36,7 @@
     "url": ["https://qatta93.github.io/quiz/", "https://github.com/qatta93/quiz-app"]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Web Prototype",
     "tech": ["Adobe XD", "PS", "CorelDraw"],
     "description": "\"The website was designed to promote house projects. There is a configurator that automatically estimates costs of houses and shows the next available date of starting the construction\"",

@@ -1,5 +1,5 @@
 .projects {
-  height: 93%;
+  height: 100%;
 }
 
 .projects__wrapper {
@@ -14,38 +14,35 @@
     flex-wrap: wrap;
     max-width: 45rem;
     margin-top: 5rem;
+    margin-bottom: 1rem;
   }
   
   .projects__wrapper > * {
     flex: 40%;
-    margin: 0 1rem;
+    max-width: 20rem;
+    margin: 0.5rem 1rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .projects__wrapper {
     margin-bottom: 3rem;
+
   }
   .projects__wrapper > * {
     flex: 35%;
     margin: 1rem;
-  }
-  .projects__footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .projects__wrapper {
     margin-bottom: 3rem;
-    flex-wrap: nowrap;
     max-width: 95%;
-    overflow: hidden;
+    justify-content: center;
   }
   .projects__wrapper > * {
-    flex: 20%;
+    width: 35rem;
     margin: 1rem;
     height: 20rem;
   }

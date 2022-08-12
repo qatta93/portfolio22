@@ -17,6 +17,7 @@ export const Tech = () => {
               <img src="images/html.png" alt="html" />
               <img src="images/css-3.png" alt="css" />
               <img src="images/js.png" alt="js" />
+              <img src="images/three.png" alt="three" />
               <img src="images/React.png" alt="react" />
               <img src="images/typescript.png" alt="typescript" />
               <img src="images/Redux.png" alt="redux" />
