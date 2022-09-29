@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "Office Finder",
+    "tech": ["Next.js", "TypeScript", "Styled Components", "Spline 3D", "Green Sock", "Vercel"],
+    "description": "\"This app is was conceived for the ones that would like to have comfortable place to work remotely from.\"",
+    "img": "images/office.png",
+    "links": ["live", "github"],
+    "url": ["https://office-finder-qatta93.vercel.app/", "https://github.com/qatta93/office-finder"]
+  },
+  {
+    "id": 2,
     "name": "3D SHOP",
     "tech": ["Next.js", "Three.js", "Prisma", "TypeScript", "Green Sock", "Tailwind", "Vercel", "CI/CD"],
     "description": "\"This full stack app was created in order to make online shopping more user friendly. 3D models are more appealing for potential customers.\"",
@@ -9,7 +18,7 @@
     "url": ["https://3d-shop.vercel.app/", "https://github.com/qatta93/3d-shop"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Travel Buddy",
     "tech": ["React", "Redux", "TypeScript", "Node.JS", "Express.JS", "Passport.JS", "OAuth", "PostreSQL", "Docker", "Heroku"],
     "description": "\"The app was created as final project in </salt> bootcamp. It was conceived for travelers that wish to find a buddy to travel with. They can either create trips and wait for people to join them, or search through other people's trips and join them in their adventures.\"",
@@ -18,7 +27,7 @@
     "url": ["https://travel-buddy-cn.herokuapp.com/", "https://github.com/qatta93/travel_buddy"]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Hack-Day",
     "tech": ["React", "Node.JS", "Express.JS", "API"],
     "description": "\"Full stack project that was created in 1 day. It generates random holidays destination for an undecided ones. It also shows current weather and pictures of the place.\"",
@@ -27,7 +36,7 @@
     "url": ["https://hackday-ebon.vercel.app/", "https://github.com/qatta93/hack-day"]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Quiz App",
     "tech": ["React", "Material UI", "API"],
     "description": "\"Quiz that generates questions thanks to Trivia API. UI was created by using Material UI\"",
@@ -36,7 +45,7 @@
     "url": ["https://qatta93.github.io/quiz/", "https://github.com/qatta93/quiz-app"]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Web Prototype",
     "tech": ["Adobe XD", "PS", "CorelDraw"],
     "description": "\"The website was designed to promote house projects. There is a configurator that automatically estimates costs of houses and shows the next available date of starting the construction\"",
