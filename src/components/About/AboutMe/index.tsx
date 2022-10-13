@@ -24,6 +24,18 @@ export const AboutMe = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
+              date="2022 - present"
+              iconStyle={{ background: 'var(--yellow)' }}
+            >
+              <h3 className="vertical-timeline-element-title">UX Designer / Frontend Developer</h3>
+              <h4 className="vertical-timeline-element-subtitle">{`Change Equity`}</h4>
+              <h4 className="vertical-timeline-element-subtitle">Stockholm, Sweden (remote)</h4>
+              <p>
+              The project name is Noterat.io. It's a user-friendly application that distributes and analyzes the available data on the Swedish Parliaments (Riksdag) API and website. Our aim is to create an informative and neutral platform where the users can easily access and control specific documents and political activity without ending up in filter bubbles. I have been creating a design in Figma and helping other developers with coding features in React and TypeScript.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
               date="2021 - present"
               iconStyle={{ background: 'var(--yellow)' }}
             >
