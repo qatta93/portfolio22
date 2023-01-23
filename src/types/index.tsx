@@ -1,6 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
 
 export interface ProjectProps {
+  role: ReactNode;
   id: number,
   name: string,
   tech: Array<string>,
