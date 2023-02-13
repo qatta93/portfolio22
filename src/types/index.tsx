@@ -4,9 +4,10 @@ export interface ProjectProps {
   id: number,
   name: string,
   tech: Array<string>,
-  description: string,
+  description?: string,
   role?: string;
-  img: string,
+  img?: string,
+  video?: string,
   links: Array<string>,
   url: Array<string>,
 }

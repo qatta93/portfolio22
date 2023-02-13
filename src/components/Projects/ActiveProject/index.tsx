@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../../../public/styles/ActiveProject.module.css';
 import { ActiveProjectProps } from '../../../types';
+import MotionDesign from '../MotionDesign';
 
 export const ActiveProject = ({ project, setActiveProject }:ActiveProjectProps) => {
 
@@ -15,11 +16,16 @@ export const ActiveProject = ({ project, setActiveProject }:ActiveProjectProps) 
         <h2 className={styles.activeProject__tech}>{technologies}</h2>
         <h3 className={styles.activeProject__role}>{project.role}</h3>
         <p className={styles.activeProject__desc}>{project.description}</p>
-        <div className={styles.activeProject__links}>
+        {project.links.map((link, i) =>
+        link.length > 0 ?
+          <div className={styles.activeProject__links}>
           <h3 className={styles.activeProject__header}>LINKS:</h3>
-          {project.links.map((link, i) => <a key={link} className={styles.activeProject__link} href={project.url[i]} target="_blank">{link}</a>)}
+          <a key={link} className={styles.activeProject__link} href={project.url[i]} target="_blank">{link}</a>
+          </div>
+        : 
+          <MotionDesign/>
+        )}
         </div>
-      </div>
     </section>
   )
 }
