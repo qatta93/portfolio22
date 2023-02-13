@@ -9,14 +9,18 @@ export const MotionDesign = () => {
         src="/videos/carMobile.mp4"
         sandbox=""
         allowFullScreen
-        className={styles.videoFrame__car}>
+        className={styles.videoFrame__car}
+        loading="lazy"
+        >
       </iframe>
       <iframe
         title="Car in motion video player"
         src="/videos/lottie.mp4"
         sandbox=""
         allowFullScreen
-        className={styles.videoFrame__lottie}>
+        className={styles.videoFrame__lottie}
+        loading="lazy"
+        >
       </iframe>
     </div>
   )
