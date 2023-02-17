@@ -1,22 +1,15 @@
 .videoFrame__car {
   height: 190px;
   width: 300px;
-  margin: 2rem auto;
 }
 
-.videoFrame__lottie {
-  height: 170px;
-  width: 300px;
+.lottie {
   margin: 2rem auto;
 }
 
 @media screen and (min-width: 600px) {
   .videoFrame__car {
     height: 300px;
-    width: 480px;
-  }
-  .videoFrame__lottie {
-    height: 270px;
     width: 480px;
   }
 }
