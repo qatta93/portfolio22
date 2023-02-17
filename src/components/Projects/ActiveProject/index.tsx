@@ -19,7 +19,6 @@ export const ActiveProject = ({ project, setActiveProject }:ActiveProjectProps) 
         {project.links.map((link, i) =>
         link.length > 0 ?
           <div className={styles.activeProject__links}>
-          <h3 className={styles.activeProject__header}>LINKS:</h3>
           <a key={link} className={styles.activeProject__link} href={project.url[i]} target="_blank">{link}</a>
           </div>
         : 
