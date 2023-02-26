@@ -1,11 +1,11 @@
+.wrapper > * {
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
 .videoFrame__car {
   height: 190px;
   width: 300px;
-  margin: 2rem auto;
-}
-
-.lottie {
-  margin: 2rem auto;
 }
 
 @media screen and (min-width: 600px) {

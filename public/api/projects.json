@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Motion Design",
-    "tech": ["Adobe After Effects", "Puppet Tools", "Lottie"],
+    "name": "Motion / UI Design",
+    "tech": ["Adobe After Effects", "Illustrator", "Puppet Tools", "Lottie"],
     "role": "Some samples of my motion design work:",
     "img": "images/motion.png",
     "links": [""],

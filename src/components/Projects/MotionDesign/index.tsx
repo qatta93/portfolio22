@@ -7,10 +7,11 @@ import landscapeAnimationData from "./landscape.json";
 
 export const MotionDesign = () => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Lottie animationData={roomAnimationData} loop={true} />
       <Lottie animationData={landscapeAnimationData} loop={true} className={styles.lottie}/>
       <Lottie animationData={girlAnimationData} loop={true}/>
+      <img src="images/graphic.png" alt="graphic"/>
       <iframe
         title="Car in motion video player"
         src="/videos/carMobile.mp4"
