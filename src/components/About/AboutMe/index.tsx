@@ -24,7 +24,7 @@ export const AboutMe = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2022 - present"
+              date="2022 - 2023"
               iconStyle={{ background: 'var(--yellow)' }}
             >
               <h3 className="vertical-timeline-element-title">UX Designer / Frontend Developer</h3>
@@ -36,7 +36,7 @@ export const AboutMe = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2021 - present"
+              date="2021 - 2023"
               iconStyle={{ background: 'var(--yellow)' }}
             >
               <h3 className="vertical-timeline-element-title">Full-Stack JavaScript Developer</h3>
