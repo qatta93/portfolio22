@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "3D SHOP - new design",
+    "name": "3D SHOP",
     "tech": ["Figma", "Next.js", "Three.js", "Prisma", "TypeScript", "Green Sock", "Tailwind", "Vercel", "CI/CD"],
     "role": "The app is redesigned and currently it's during implementation",
     "description": "\"This full stack app was created in order to make online shopping more user friendly. 3D models are more appealing for potential customers.\"",
@@ -30,24 +30,6 @@
   },
   {
     "id": 4,
-    "name": "Office Finder",
-    "tech": ["Next.js", "TypeScript", "Styled Components", "Spline 3D", "Green Sock", "Vercel"],
-    "description": "\"This app is was conceived for the ones that would like to have comfortable place to work remotely from.\"",
-    "img": "images/office.png",
-    "links": ["live", "github"],
-    "url": ["https://office-finder-qatta93.vercel.app/", "https://github.com/qatta93/office-finder"]
-  },
-  {
-    "id": 5,
-    "name": "3D SHOP",
-    "tech": ["Next.js", "Three.js", "Prisma", "TypeScript", "Green Sock", "Tailwind", "Vercel", "CI/CD"],
-    "description": "\"This full stack app was created in order to make online shopping more user friendly. 3D models are more appealing for potential customers.\"",
-    "img": "images/shop.png",
-    "links": ["live", "github"],
-    "url": ["https://3d-shop.vercel.app/", "https://github.com/qatta93/3d-shop"]
-  },
-  {
-    "id": 6,
     "name": "Travel Buddy",
     "role": "My role was to do all design of the app, implement most of the frontend features and be a director && 'actress' of our presentation movie :) you can check it out below.",
     "tech": ["React", "Redux", "TypeScript", "Node.JS", "Express.JS", "Passport.JS", "OAuth", "PostreSQL", "Docker", "Heroku"],
@@ -57,16 +39,7 @@
     "url": ["https://drive.google.com/file/d/12Jszul02xFTqaDRs5iBRcP491ztfEJWV/view?usp=sharing", "https://www.figma.com/file/jfO04g9WdOwZs3lWBxPOPl/Travel-Buddy?node-id=0%3A1&t=iJ2FNima8qsq8l4O-1", "https://travel-buddy-cn.herokuapp.com/", "https://github.com/qatta93/travel_buddy"]
   },
   {
-    "id": 7,
-    "name": "Quiz App",
-    "tech": ["React", "Material UI", "API"],
-    "description": "\"Quiz that generates questions thanks to Trivia API. UI was created by using Material UI\"",
-    "img": "images/quiz.jpg",
-    "links": ["live", "github"],
-    "url": ["https://qatta93.github.io/quiz/", "https://github.com/qatta93/quiz-app"]
-  },
-  {
-    "id": 8,
+    "id": 5,
     "name": "Web Prototype",
     "tech": ["Adobe XD", "PS", "CorelDraw"],
     "description": "\"The website was designed to promote house projects. There is a configurator that automatically estimates costs of houses and shows the next available date of starting the construction\"",
