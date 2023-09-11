@@ -36,7 +36,7 @@
     "description": "\"The app was created as final project in </salt> bootcamp. My colleagues and I did that project from scratch in 10 days. It was conceived for travelers that wish to find a buddy to travel with. They can either create trips and wait for people to join them, or search through other people's trips and join them in their adventures.\"",
     "img": "images/travel-buddy.png",
     "links": ["presentation", "figma", "live", "github"],
-    "url": ["https://drive.google.com/file/d/12Jszul02xFTqaDRs5iBRcP491ztfEJWV/view?usp=sharing", "https://www.figma.com/file/jfO04g9WdOwZs3lWBxPOPl/Travel-Buddy?node-id=0%3A1&t=iJ2FNima8qsq8l4O-1", "https://travel-buddy-cn.herokuapp.com/", "https://github.com/qatta93/travel_buddy"]
+    "url": ["https://drive.google.com/file/d/12Jszul02xFTqaDRs5iBRcP491ztfEJWV/view?usp=sharing", "https://www.figma.com/file/jfO04g9WdOwZs3lWBxPOPl/Travel-Buddy?node-id=0%3A1&t=iJ2FNima8qsq8l4O-1", "https://travel-buddy-application.netlify.app/", "https://github.com/qatta93/travel_buddy"]
   },
   {
     "id": 5,
