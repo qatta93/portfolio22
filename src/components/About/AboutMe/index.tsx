@@ -28,10 +28,10 @@ export const AboutMe = () => {
               iconStyle={{ background: 'var(--yellow)' }}
             >
               <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
-              <h4 className="vertical-timeline-element-subtitle">{`Adlife`}</h4>
+              <h4 className="vertical-timeline-element-subtitle">{`Self Employed`}</h4>
               <h4 className="vertical-timeline-element-subtitle">Warsaw, Poland</h4>
               <ul className={styles.experience_list}>
-                <li>creating Web Applications from scratch and developing existing ones with new functionalities using React and Redux in a scalable way</li>
+                <li>creating Web Applications from scratch and developing existing ones with new functionalities using React, Next.js and Redux in a scalable way</li>
                 <li>collaborating with Project Managers, BE developers, BA, UX/UI (auditing UX design from a tech perspective and giving insights), and consultation with clients to deliver user-centered and highly performant Web App</li>
                 <li>integrating B2C websites with headless CMS to allow content editors easily maintain a website</li>
                 <li>actively participating in scrum meetings (backlog refinement, sprint planning, retro)</li>
@@ -55,18 +55,6 @@ export const AboutMe = () => {
                 <li>participating in UI design and interactive prototypes to visualize and iterate on user interfaces, ensuring usability and efficiency before full development</li>
                 <li>prioritizing responsive design across a range of devices (mobile first)</li>
               </ul>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2021 - 2022"
-              iconStyle={{ background: 'var(--yellow)' }}
-            >
-              <h3 className="vertical-timeline-element-title">Full-Stack JavaScript Developer</h3>
-              <h4 className="vertical-timeline-element-subtitle">{`</salt>`}</h4>
-              <h4 className="vertical-timeline-element-subtitle">Stockholm, Sweden</h4>
-              <p>
-              Technical skills include JavaScript, React, Typescript, Node.js, Express, HTML5, CSS3, Databases incl. MongoDB and PostgreSQL, UX/UI and general development tools such as Git, REST, Docker, Kubernetes, Redux, GraphQL, AWS, TDD and CI/CD.
-              </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"

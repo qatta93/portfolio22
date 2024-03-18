@@ -32,10 +32,16 @@
   font-weight: bold;
   color: #4D535F;
   padding-left: 0;
+  cursor: pointer;
 }
 
 .form__response {
   margin: 5rem 0;
   padding: 1rem;
   background-color: white;
+}
+
+.contact__img {
+  width: 100px;
+  margin: 1.5rem;
 }

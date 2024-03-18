@@ -2,13 +2,7 @@
   padding: 1rem;
   height: 100%;
   text-align: center;
-  background-color: rgba(162, 255, 247, 0.747);
+  background-color: #A8DFF0;
   border-top: 1px solid rgb(189, 188, 188);
-}
-
-@media screen and (min-width: 768px) {
- .footer {
-   padding: 1.3rem;
-   font-size: 1.3rem;
- }
+  font-size: 1rem;
 }

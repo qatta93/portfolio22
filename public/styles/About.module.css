@@ -4,7 +4,7 @@
 }
 
 .about__buttons {
-  margin: 3rem 2rem 1.5rem;
+  margin: 3rem 2rem 1.5rem;    
 }
 
 .about__btn {
@@ -174,7 +174,7 @@
   .about__buttons {
     display: flex;
     justify-content: space-around;
-    max-width: 90%;
+    max-width: 1100px;
     margin: 5rem auto 0;
   }
   
