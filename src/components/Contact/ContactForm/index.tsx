@@ -1,21 +1,13 @@
 import React, {useState} from 'react';
 import styles from '../../../../public/styles/ContactForm.module.css';
 
-const FORM_ACCESS_KEY = process.env.NEXT_PUBLIC_FORM_ACCESS_KEY;
-
 export const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
-  // const handleSubmit = () => {
-  //   setTimeout(() => {
-  //     setSubmitted(true);
-  //   }, 100);
-  // };
 
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
-    async function handleSubmit(event: React.ChangeEvent<HTMLFormElement>) {
+    async function handleWebForm(event: React.ChangeEvent<HTMLFormElement>) {
       event.preventDefault();
-  
-
           const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
@@ -29,10 +21,16 @@ export const ContactForm = () => {
         }),
     });
     const result = await response.json();
+    
     if (result.success) {
       setIsSubmitted(true);
-        console.log(result);
+      setIsLoading(false);
     }}
+
+    const handleSubmit = (e: React.ChangeEvent<HTMLFormElement>) => {
+      setIsLoading(true)
+      handleWebForm(e);
+    }
 
     if (isSubmitted) {
     return (
@@ -69,6 +67,8 @@ export const ContactForm = () => {
         className={styles.form__textarea}
         required
       />
+      {isLoading ? 
+      <span className={styles.form__loader}/> : 
       <button
         className={styles.form__button}
         type="submit"
@@ -76,6 +76,8 @@ export const ContactForm = () => {
       >
         send
       </button>
+      }
   </form>
   )
 }
+
