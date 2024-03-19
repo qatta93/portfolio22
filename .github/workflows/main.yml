@@ -32,13 +32,5 @@ jobs:
     - name: Verify build
       run: ls -la _static
     
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        local-dir: "./_static/"
-        server: ftp.cluster031.hosting.ovh.net
-        server-dir: ./portfolio/
-        username: homiait
-        password: ${{ secrets.ftp_password }}
 
 

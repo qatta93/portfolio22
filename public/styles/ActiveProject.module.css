@@ -1,19 +1,33 @@
 .activeProject {
+  position: relative;
   min-height: 100%;
-  text-align: center;
+}
+
+.activeProject__bcg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: 1.5rem;
   background-color: var(--dark-gray);
 }
 
 .activeProject__wrapper {
+  position: relative;
+  text-align: center;
   margin: 0 auto;
   max-width: 30rem;
+  z-index: 1;
 }
 
 .activeProject__img {
+  position: absolute;
   height: 2rem;
-  float: right;
+  right: 2rem;
+  top: 2rem;
   cursor: pointer;
+  z-index: 1;
 }
 
 .activeProject__name {

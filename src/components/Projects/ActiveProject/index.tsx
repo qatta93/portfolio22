@@ -10,6 +10,7 @@ export const ActiveProject = ({ project, setActiveProject }:ActiveProjectProps) 
 
   return (
     <section className={styles.activeProject}>
+      <div className={styles.activeProject__bcg} onClick={() => closeProject()}/>
       <img className={styles.activeProject__img} src="images/close-white.png" alt="close" onClick={() => closeProject()}/>
       <div className={styles.activeProject__wrapper}>
         <h1 className={styles.activeProject__name}>{project.name}</h1>
